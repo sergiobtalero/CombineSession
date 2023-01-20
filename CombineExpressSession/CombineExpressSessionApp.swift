@@ -11,7 +11,7 @@ import SwiftUI
 struct CombineExpressSessionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }

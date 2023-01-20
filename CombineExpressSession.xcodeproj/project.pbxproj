@@ -8,23 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		D468D8B9297AD5D100E4198D /* CombineExpressSessionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468D8B8297AD5D100E4198D /* CombineExpressSessionApp.swift */; };
-		D468D8BB297AD5D100E4198D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468D8BA297AD5D100E4198D /* ContentView.swift */; };
+		D468D8BB297AD5D100E4198D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468D8BA297AD5D100E4198D /* LoginView.swift */; };
 		D468D8BD297AD5D500E4198D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D468D8BC297AD5D500E4198D /* Assets.xcassets */; };
 		D468D8C0297AD5D500E4198D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D468D8BF297AD5D500E4198D /* Preview Assets.xcassets */; };
 		D468D8CA297AD5D500E4198D /* CombineExpressSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468D8C9297AD5D500E4198D /* CombineExpressSessionTests.swift */; };
-		D468D8D4297AD5D600E4198D /* CombineExpressSessionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468D8D3297AD5D600E4198D /* CombineExpressSessionUITests.swift */; };
-		D468D8D6297AD5D600E4198D /* CombineExpressSessionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468D8D5297AD5D600E4198D /* CombineExpressSessionUITestsLaunchTests.swift */; };
+		D4907267297B2DD7009B0963 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4907266297B2DD7009B0963 /* LoginViewModel.swift */; };
+		D4907269297B30B1009B0963 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4907268297B30B1009B0963 /* NetworkManager.swift */; };
+		D490726B297B34CF009B0963 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490726A297B34CF009B0963 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		D468D8C6297AD5D500E4198D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D468D8AD297AD5D100E4198D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D468D8B4297AD5D100E4198D;
-			remoteInfo = CombineExpressSession;
-		};
-		D468D8D0297AD5D500E4198D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D468D8AD297AD5D100E4198D /* Project object */;
 			proxyType = 1;
@@ -36,14 +30,14 @@
 /* Begin PBXFileReference section */
 		D468D8B5297AD5D100E4198D /* CombineExpressSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineExpressSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D468D8B8297AD5D100E4198D /* CombineExpressSessionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineExpressSessionApp.swift; sourceTree = "<group>"; };
-		D468D8BA297AD5D100E4198D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D468D8BA297AD5D100E4198D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D468D8BC297AD5D500E4198D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D468D8BF297AD5D500E4198D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D468D8C5297AD5D500E4198D /* CombineExpressSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombineExpressSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D468D8C9297AD5D500E4198D /* CombineExpressSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineExpressSessionTests.swift; sourceTree = "<group>"; };
-		D468D8CF297AD5D500E4198D /* CombineExpressSessionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombineExpressSessionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D468D8D3297AD5D600E4198D /* CombineExpressSessionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineExpressSessionUITests.swift; sourceTree = "<group>"; };
-		D468D8D5297AD5D600E4198D /* CombineExpressSessionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineExpressSessionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4907266297B2DD7009B0963 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D4907268297B30B1009B0963 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D490726A297B34CF009B0963 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +55,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D468D8CC297AD5D500E4198D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +63,6 @@
 			children = (
 				D468D8B7297AD5D100E4198D /* CombineExpressSession */,
 				D468D8C8297AD5D500E4198D /* CombineExpressSessionTests */,
-				D468D8D2297AD5D500E4198D /* CombineExpressSessionUITests */,
 				D468D8B6297AD5D100E4198D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +72,6 @@
 			children = (
 				D468D8B5297AD5D100E4198D /* CombineExpressSession.app */,
 				D468D8C5297AD5D500E4198D /* CombineExpressSessionTests.xctest */,
-				D468D8CF297AD5D500E4198D /* CombineExpressSessionUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				D468D8B8297AD5D100E4198D /* CombineExpressSessionApp.swift */,
-				D468D8BA297AD5D100E4198D /* ContentView.swift */,
+				D468D8BA297AD5D100E4198D /* LoginView.swift */,
 				D468D8BC297AD5D500E4198D /* Assets.xcassets */,
 				D468D8BE297AD5D500E4198D /* Preview Content */,
+				D4907266297B2DD7009B0963 /* LoginViewModel.swift */,
+				D490726A297B34CF009B0963 /* User.swift */,
+				D4907268297B30B1009B0963 /* NetworkManager.swift */,
 			);
 			path = CombineExpressSession;
 			sourceTree = "<group>";
@@ -116,15 +104,6 @@
 				D468D8C9297AD5D500E4198D /* CombineExpressSessionTests.swift */,
 			);
 			path = CombineExpressSessionTests;
-			sourceTree = "<group>";
-		};
-		D468D8D2297AD5D500E4198D /* CombineExpressSessionUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D468D8D3297AD5D600E4198D /* CombineExpressSessionUITests.swift */,
-				D468D8D5297AD5D600E4198D /* CombineExpressSessionUITestsLaunchTests.swift */,
-			);
-			path = CombineExpressSessionUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +144,6 @@
 			productReference = D468D8C5297AD5D500E4198D /* CombineExpressSessionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D468D8CE297AD5D500E4198D /* CombineExpressSessionUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D468D8DF297AD5D600E4198D /* Build configuration list for PBXNativeTarget "CombineExpressSessionUITests" */;
-			buildPhases = (
-				D468D8CB297AD5D500E4198D /* Sources */,
-				D468D8CC297AD5D500E4198D /* Frameworks */,
-				D468D8CD297AD5D500E4198D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D468D8D1297AD5D500E4198D /* PBXTargetDependency */,
-			);
-			name = CombineExpressSessionUITests;
-			productName = CombineExpressSessionUITests;
-			productReference = D468D8CF297AD5D500E4198D /* CombineExpressSessionUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +158,6 @@
 						CreatedOnToolsVersion = 14.1;
 					};
 					D468D8C4297AD5D500E4198D = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = D468D8B4297AD5D100E4198D;
-					};
-					D468D8CE297AD5D500E4198D = {
 						CreatedOnToolsVersion = 14.1;
 						TestTargetID = D468D8B4297AD5D100E4198D;
 					};
@@ -221,7 +178,6 @@
 			targets = (
 				D468D8B4297AD5D100E4198D /* CombineExpressSession */,
 				D468D8C4297AD5D500E4198D /* CombineExpressSessionTests */,
-				D468D8CE297AD5D500E4198D /* CombineExpressSessionUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +199,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D468D8CD297AD5D500E4198D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D468D8BB297AD5D100E4198D /* ContentView.swift in Sources */,
+				D4907269297B30B1009B0963 /* NetworkManager.swift in Sources */,
+				D468D8BB297AD5D100E4198D /* LoginView.swift in Sources */,
 				D468D8B9297AD5D100E4198D /* CombineExpressSessionApp.swift in Sources */,
+				D490726B297B34CF009B0963 /* User.swift in Sources */,
+				D4907267297B2DD7009B0963 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +222,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D468D8CB297AD5D500E4198D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D468D8D6297AD5D600E4198D /* CombineExpressSessionUITestsLaunchTests.swift in Sources */,
-				D468D8D4297AD5D600E4198D /* CombineExpressSessionUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +229,6 @@
 			isa = PBXTargetDependency;
 			target = D468D8B4297AD5D100E4198D /* CombineExpressSession */;
 			targetProxy = D468D8C6297AD5D500E4198D /* PBXContainerItemProxy */;
-		};
-		D468D8D1297AD5D500E4198D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D468D8B4297AD5D100E4198D /* CombineExpressSession */;
-			targetProxy = D468D8D0297AD5D500E4198D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -503,40 +441,6 @@
 			};
 			name = Release;
 		};
-		D468D8E0297AD5D600E4198D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hello.CombineExpressSessionUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CombineExpressSession;
-			};
-			name = Debug;
-		};
-		D468D8E1297AD5D600E4198D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hello.CombineExpressSessionUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CombineExpressSession;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -563,15 +467,6 @@
 			buildConfigurations = (
 				D468D8DD297AD5D600E4198D /* Debug */,
 				D468D8DE297AD5D600E4198D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D468D8DF297AD5D600E4198D /* Build configuration list for PBXNativeTarget "CombineExpressSessionUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D468D8E0297AD5D600E4198D /* Debug */,
-				D468D8E1297AD5D600E4198D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
